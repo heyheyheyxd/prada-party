@@ -1,0 +1,19 @@
+# PocketBase data (must NOT be in Git)
+pb_data/
+
+# PocketBase build files
+pocketbase
+pocketbase.exe
+
+# Node / frontend cache (если есть)
+node_modules/
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+!pb_migrations/
